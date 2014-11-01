@@ -1,0 +1,27 @@
+{
+  "version": "0.1.0",
+  "private": false,
+  "name": "velato-js",
+  "description": "Velato JS is a JavaScript impementation of the music theory programming language Velato.",
+  "repository": "https://github.com/eerwitt/velato-js",
+  "license": "MIT",
+  "devDependencies": {
+    "coffee-script": "*",
+    "grunt": "*",
+    "grunt-cli": "*",
+    "grunt-contrib-coffee": "*",
+    "grunt-contrib-connect": "*",
+    "grunt-contrib-watch": "*",
+    "grunt-concurrent": "*",
+    "grunt-karma": "*",
+    "karma": "*",
+    "karma-coffee-preprocessor": "*",
+    "karma-phantomjs-launcher": "*",
+    "karma-jasmine": "*",
+    "bower": "*"
+  },
+  "scripts": {
+    "postinstall": "bower install",
+    "start": "grunt"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "homepage": "https://github.com/eerwitt/velato-js",
+  "version": "0.1.0",
+  "name": "velato-js",
+  "description": "Velato JS is a JavaScript impementation of the programming language Velato based on musical theory.",
+  "repository": "https://github.com/eerwitt/velato-js",
+  "license": "MIT",
+  "private": false,
+  "keywords": [
+  ],
+  "authors": [
+    "Erik Erwitt"
+  ],
+  "main": [
+    "velato.js"
+  ],
+  "ignore": [
+    "Gruntfile.coffee",
+    "TODO.md",
+    "**/*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "velato"
+  ],
+  "dependencies": {
+    "escodegen": "latest"
+  }
+}
