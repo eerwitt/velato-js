@@ -1,6 +1,6 @@
 # Velato.js
 
-A transpiler which takes (Velato)[http://danieltemkin.com/Velato] source "code" and compiles it to JavaScript.
+A transpiler which takes [Velato](http://danieltemkin.com/Velato) source "code" and compiles it to JavaScript.
 
 As Daniel describes it:
 
@@ -10,7 +10,7 @@ Although Velto.js doesn't parse MIDI files for ease of testing.
 
 ## Installation
 
-Velato.js is available via `bower` and requires (escodegen)[https://github.com/Constellation/escodegen] to run.
+Velato.js is available via `bower` and requires [escodegen](https://github.com/Constellation/escodegen) to run.
 
 Add to `bower.json`:
 
@@ -47,7 +47,7 @@ var javascript =  Velato.compileJS("C A G E E# A D# G");
 eval(javascript);
 ```
 
-By default Velato.js maps the command "C A G" (print command)[http://danieltemkin.com/Velato#commandList] to print output to the console with `console.log`.
+By default Velato.js maps the command "C A G" [print command](http://danieltemkin.com/Velato#commandList) to print output to the console with `console.log`.
 
 Changing the print behaviour is done via implementing the function `Velato.output`. For example, to open an alert dialogue with the letter H:
 
