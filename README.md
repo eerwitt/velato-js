@@ -42,7 +42,7 @@ Then include in your HTML file:
 
 Using Velato.js to compile an executable JavaScript string is done using:
 
-```
+```javascript
 var javascript =  Velato.compileJS("C A G E E# A D# G");
 eval(javascript);
 ```
